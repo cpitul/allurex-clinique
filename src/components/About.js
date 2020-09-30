@@ -2,12 +2,12 @@ import React from 'react';
 import AboutSection from './utilities/AboutSection';
 import firstImage from '../assets/12.jpg';
 import secondImage from '../assets/24.jpg';
-// import thirdImage from '../assets/';
-// import fourthImage from '../assets/';
+import thirdImage from '../assets/6.jpg';
+import fourthImage from '../assets/25.jpg';
 
 const About = () => {
-  const content = {
-    first: {
+  const content = [
+    {
       id: 1,
       image: firstImage,
       text:
@@ -15,7 +15,7 @@ const About = () => {
       color: '#2999bc',
       location: 'left',
     },
-    second: {
+    {
       id: 2,
       image: secondImage,
       text:
@@ -23,40 +23,37 @@ const About = () => {
       color: '#fac970',
       location: 'right',
     },
-    // third: {
-    //   id: 3,
-    //   image: thirdImage,
-    //   text:
-    //     'Suntem sensibili și atenți la problemele pe care le aveți, vă vom ajută să vă simțiți în largul vostru, atât în compania medicilor, a terapeuților, cât și în cea a instrumentelor ori a aparatelor medicale.',
-    //   color: '#2999bc',
-    // },
-    // fourth: {
-    //   id: 4,
-    //   image: fourthImage,
-    //   text:
-    //     'Vă așteptăm cu servicii personalizate de KINETOTERAPIE în sinergie cu FIZIOTERAPIA și cu alte proceduri medicale sub îndrumarea unui medic specialist de recuperare medicala și/sau dermatologie.',
-    //   color: '#fac970',
-    // },
-  };
+    {
+      id: 3,
+      image: thirdImage,
+      text:
+        'Suntem sensibili și atenți la problemele pe care le aveți, vă vom ajută să vă simțiți în largul vostru, atât în compania medicilor, a terapeuților, cât și în cea a instrumentelor ori a aparatelor medicale.',
+      color: '#2999bc',
+      location: 'left',
+    },
+    {
+      id: 4,
+      image: fourthImage,
+      text:
+        'Vă așteptăm cu servicii personalizate de KINETOTERAPIE în sinergie cu FIZIOTERAPIA și cu alte proceduri medicale sub îndrumarea unui medic specialist de recuperare medicala și/sau dermatologie.',
+      color: '#fac970',
+      location: 'right',
+    },
+  ];
 
   return (
     <section id='despre-noi'>
       <h2 id='about-heading'>Despre noi</h2>
       <div className='container' id='despre-noi-content'>
-        <AboutSection
-          image={content.first.image}
-          text={content.first.text}
-          color={content.first.color}
-          id={content.first.id}
-          location={content.first.location}
-        />
-        <AboutSection
-          image={content.second.image}
-          text={content.second.text}
-          color={content.second.color}
-          id={content.second.id}
-          location={content.second.location}
-        />
+        {content.map((info) => (
+          <AboutSection
+            image={info.image}
+            text={info.text}
+            color={info.color}
+            id={info.id}
+            location={info.location}
+          />
+        ))}
       </div>
     </section>
   );
