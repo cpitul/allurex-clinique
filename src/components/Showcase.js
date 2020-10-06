@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import LogoText from '../assets/logo-text.png';
 
 const Showcase = () => {
@@ -7,9 +8,14 @@ const Showcase = () => {
       <div className='showcase-content'>
         <img src={LogoText} alt='logo-text' />
         <h1>Susținători al echilibrului organismului.</h1>
-        <a href='#servicii' className='btn btn-primary'>
-          Ce tratăm?
-        </a>
+        <div id='showcase-buttons'>
+          <a href='#despre-noi' className='btn btn-primary'>
+            Despre noi
+          </a>
+          <Link to='/afectiuni' className='btn btn-secondary'>
+            Ce tratăm
+          </Link>
+        </div>
       </div>
       <div className='showcase-backdrop'>
         <svg width='732.388' height='524.367' viewBox='0 0 732.388 524.367'>

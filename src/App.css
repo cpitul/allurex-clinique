@@ -13,9 +13,9 @@ html {
 /* utilities */
 :root {
   --primary-color: #2999bc;
-  --secondary-color: #fac970;
+  --secondary-color: #faca70;
   --lighter-primary-color: #1bb2e0;
-  --darker-primary-color: #2282a0;
+  --darker-primary-color: #29a1c6;
   --dark-color: #333;
   --light-color: #fff;
 }
@@ -35,12 +35,11 @@ ul {
 }
 
 .btn {
-  padding: 0.8vw 4vw;
+  padding: 0.8rem 3rem;
   display: inline-block;
   cursor: pointer;
   border-radius: 10px;
-  font-weight: 500;
-  font-size: 1.1vw;
+  font-size: 1.2rem;
   white-space: nowrap;
   outline: none;
   border: none;
@@ -51,12 +50,22 @@ ul {
   color: #fff;
 }
 
-.btn-block {
-  width: 100%;
-}
-
 .btn-primary:hover {
   background: var(--darker-primary-color);
+}
+
+.btn-secondary {
+  border: solid 1px var(--secondary-color);
+  color: #333;
+  background: rgba(0, 0, 0, 0);
+}
+
+.btn-secondary:hover {
+  background: var(--secondary-color);
+}
+
+.btn-block {
+  width: 100%;
 }
 
 /* navigation bar */
@@ -125,7 +134,7 @@ nav {
 #showcase {
   position: relative;
   height: 100vh;
-  width: 100%;
+  width: 80%;
   display: flex;
   align-items: center;
   z-index: 0;
@@ -142,14 +151,14 @@ nav {
 
 .showcase-content > img {
   background: rgba(0, 0, 0, 0);
-  width: 100%;
+  width: 33rem;
 }
 
 .showcase-content > h1 {
   line-height: 1.7;
   width: 100%;
-  font-size: 1.4vw;
-  font-weight: 500;
+  font-size: 1.6rem;
+  font-weight: 400;
   padding-bottom: 3rem;
   padding-top: 1rem;
   background: rgba(0, 0, 0, 0);
@@ -163,7 +172,7 @@ nav {
   align-items: center;
   justify-content: flex-end;
   right: 0;
-  width: 60%;
+  width: 60rem;
   height: 100vh;
   z-index: -1;
 }
@@ -181,6 +190,15 @@ nav {
   left: 50%;
   transform: translate(0%, -50%);
   color: var(--dark-color);
+}
+
+#showcase-buttons {
+  white-space: nowrap;
+  background: rgba(0, 0, 0, 0);
+}
+
+#showcase-buttons > a {
+  margin-right: 2rem;
 }
 
 /* about */
@@ -221,26 +239,26 @@ nav {
 }
 
 .about-photo-1 {
-  width: 35vw;
-  height: 35vw;
+  width: 40rem;
+  height: 40rem;
 }
 
 .about-photo-2 {
-  width: 20vw;
-  height: 25vw;
+  width: 25rem;
+  height: 30rem;
   position: absolute;
   right: 7%;
   top: -6%;
 }
 
 .about-photo-3 {
-  width: 34vw;
-  height: 35vw;
+  width: 40rem;
+  height: 40rem;
 }
 
 .about-photo-4 {
-  width: 20vw;
-  height: 25vw;
+  width: 25rem;
+  height: 30rem;
   position: absolute;
   right: 7%;
   top: -6%;
@@ -251,10 +269,11 @@ nav {
   position: absolute;
   top: 30%;
   right: 9%;
-  font-size: 1.2vw;
+  font-size: 1.3rem;
   line-height: 1.6;
   letter-spacing: 1px;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 4px 4px 5px;
 }
 
 .about-text-right {
@@ -263,9 +282,10 @@ nav {
   position: absolute;
   top: 70%;
   left: 35%;
-  font-size: 1.2vw;
+  font-size: 1.3rem;
   line-height: 1.6;
   letter-spacing: 1px;
+  box-shadow: rgba(0, 0, 0, 0.2) 4px 4px 5px;
 }
 
 #about-text-1 {
