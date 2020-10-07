@@ -40,8 +40,14 @@ const Contact = () => {
           <div id='contact-adresa'>
             <h4>Adresa:</h4>
             <p>
-              Str Sevastopol nr 13-17, Diplomat Business Center, birou 101,
-              Sector 1, Bucuresti
+              <a
+                href='https://www.google.com/maps/place/Diplomat+Business+Center/@44.4501506,26.0835923,17.42z/data=!4m5!3m4!1s0x40b201fe2f8c9eab:0xf3c94b777f13c4dc!8m2!3d44.4502028!4d26.0852525'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Str. Sevastopol nr. 13-17, Diplomat Business Center, birou 101,
+                Sector 1, București
+              </a>
             </p>
           </div>
           <div id='contact-telefon'>

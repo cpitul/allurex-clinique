@@ -11,9 +11,9 @@
   --primary-color: #2999bc;
   --secondary-color: #faca70;
   --lighter-primary-color: #1bb2e0;
-  --darker-primary-color: #29a1c6;
+  --darker-primary-color: #2183a0;
   --dark-color: #333;
-  --light-grey: #ddd;
+  --light-grey: #e9e9e9;
   --light-color: #fff;
 }
 
@@ -41,6 +41,7 @@ ul {
   outline: none;
   border: none;
   transition: background 0.3s;
+  transition: transform 0.3s;
 }
 
 .btn-primary {
@@ -50,6 +51,7 @@ ul {
 
 .btn-primary:hover {
   background: var(--darker-primary-color);
+  transform: translateY(-3%);
 }
 
 .btn-secondary {
@@ -60,6 +62,7 @@ ul {
 
 .btn-secondary:hover {
   background: var(--secondary-color);
+  transform: translateY(-3%);
 }
 
 .btn-dark {
@@ -69,6 +72,7 @@ ul {
 
 .btn-dark:hover {
   background: #444;
+  transform: translateY(-3%);
 }
 
 .btn-block {
@@ -367,8 +371,11 @@ nav {
   transition: transform 0.7s;
 }
 
-#about-text-1:hover {
-  transform: translateY(-20%);
+#about-text-1:hover,
+#about-text-2:hover,
+#about-text-3:hover,
+#about-text-4:hover {
+  transform: translateY(-17%);
 }
 
 #about-text-2 {
@@ -379,6 +386,7 @@ nav {
   border-radius: 5px;
   color: var(--dark-color);
   z-index: 1;
+  transition: transform 0.7s;
 }
 
 #about-text-3 {
@@ -389,6 +397,7 @@ nav {
   right: 10%;
   transform: translateX(10%);
   color: var(--light-color);
+  transition: transform 0.7s;
 }
 
 #about-text-4 {
@@ -398,6 +407,7 @@ nav {
   border-radius: 5px;
   padding: 2rem 3rem;
   z-index: 1;
+  transition: transform 0.7s;
 }
 
 /* footer */
@@ -548,10 +558,25 @@ footer {
 /* servicii */
 
 #servicii {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: rgba(0, 0, 0, 0);
+}
+
+#servicii::before {
+  content: '';
+  background: url('../src/assets/logo.png') no-repeat center center/cover;
+  width: 60rem;
+  height: 60rem;
+  position: absolute;
+  left: 25%;
+  top: 5%;
+  z-index: 0;
+  opacity: 0.05;
+  transform: rotate(25deg);
 }
 
 #servicii > h1 {
@@ -567,10 +592,13 @@ footer {
   align-items: center;
   justify-content: space-around;
   margin-bottom: 2rem;
+  z-index: 0;
+  background: rgba(0, 0, 0, 0);
 }
 
 #buton-servicii {
   margin-top: 2rem;
+  z-index: 1;
 }
 
 /* Contact */
@@ -593,7 +621,7 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
-  flex: 2;
+  flex: 1;
   padding: 2rem;
 }
 
@@ -618,6 +646,20 @@ footer {
   flex-direction: column;
 }
 
+#contact-adresa > p > a,
+#contact-telefon > p > a,
+#contact-email > a {
+  text-decoration: underline;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+#contact-adresa > p > a:hover,
+#contact-telefon > p > a:hover,
+#contact-email > a:hover {
+  color: var(--darker-primary-color);
+}
+
 #contact-adresa > h4,
 #contact-telefon > h4,
 #contact-email > h4 {
@@ -629,7 +671,7 @@ footer {
   border: solid 1px var(--dark-color);
   border-radius: 5px;
   width: 100%;
-  margin: 1rem 0;
+  margin: 1rem 0 2.5rem 0;
   padding: 0.7rem;
   background: var(--light-color);
 }
