@@ -1,6 +1,5 @@
 import React from 'react';
 import Logo from '../assets/logo.png';
-import Corner from './utilities/Corner';
 
 const Navbar = () => {
   return (
@@ -18,10 +17,10 @@ const Navbar = () => {
             <a href='#showcase'>Acasă</a>
           </li>
           <li className='nav-link'>
-            <a href='#despre-noi'>Despre noi</a>
+            <a href='#servicii'>Servicii</a>
           </li>
           <li className='nav-link'>
-            <a href='#servicii'>Servicii</a>
+            <a href='#despre-noi'>Despre noi</a>
           </li>
           <li className='nav-link'>
             <a href='#contact'>Contact</a>

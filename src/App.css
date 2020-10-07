@@ -5,10 +5,6 @@
   font-family: 'Montserrat', sans-serif;
   background: #f4f4f4;
 }
-body,
-html {
-  overflow-x: hidden;
-}
 
 /* utilities */
 :root {
@@ -17,6 +13,7 @@ html {
   --lighter-primary-color: #1bb2e0;
   --darker-primary-color: #29a1c6;
   --dark-color: #333;
+  --light-grey: #ddd;
   --light-color: #fff;
 }
 
@@ -43,6 +40,7 @@ ul {
   white-space: nowrap;
   outline: none;
   border: none;
+  transition: background 0.3s;
 }
 
 .btn-primary {
@@ -64,8 +62,79 @@ ul {
   background: var(--secondary-color);
 }
 
+.btn-dark {
+  color: var(--light-color);
+  background: var(--dark-color);
+}
+
+.btn-dark:hover {
+  background: #444;
+}
+
 .btn-block {
   width: 100%;
+}
+
+.card {
+  width: 18rem;
+  height: 15rem;
+  padding: 1.5rem;
+  background: var(--light-grey);
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.22);
+  transition: transform 0.3s;
+  display: inline-block;
+  margin: 2rem auto;
+}
+
+.card-content {
+  background: inherit;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card-title {
+  color: var(--primary-color);
+  margin-bottom: 0.2rem;
+  background: inherit;
+  font-size: 1.3rem;
+}
+
+.card-line {
+  width: 30%;
+  height: 3px;
+  background: var(--primary-color);
+  margin-bottom: 0.75rem;
+  transition: width 0.4s;
+}
+
+.card-text {
+  background: inherit;
+  color: var(--dark-color);
+  line-height: 1.3;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.card-link {
+  background: inherit;
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+.card-link:hover {
+  color: var(--darker-primary-color);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card:hover > .card-content > .card-line {
+  width: 55%;
 }
 
 /* navigation bar */
@@ -101,7 +170,6 @@ nav {
   letter-spacing: 1px;
   color: var(--primary-color);
   font-size: 1.1rem;
-
   white-space: nowrap !important;
 }
 
@@ -146,7 +214,6 @@ nav {
   width: 40%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
 
 .showcase-content > img {
@@ -185,11 +252,11 @@ nav {
 .fa-angle-down {
   background: rgba(0, 0, 0, 0);
   position: absolute;
-  width: 100%;
   bottom: 5%;
   left: 50%;
-  transform: translate(0%, -50%);
+  transform: translate(-5%, -50%);
   color: var(--dark-color);
+  animation: showcase-arrow 1.5s infinite alternate ease-in-out;
 }
 
 #showcase-buttons {
@@ -204,7 +271,7 @@ nav {
 /* about */
 
 #despre-noi {
-  padding-top: 1rem;
+  margin-top: 3rem;
 }
 
 #despre-noi-content {
@@ -215,7 +282,7 @@ nav {
   width: 100%;
   text-align: center;
   color: var(--dark-color);
-  font-size: 2vw;
+  font-size: 2rem;
 }
 
 .about-section {
@@ -297,6 +364,11 @@ nav {
   border-radius: 5px;
   color: var(--light-color);
   z-index: 1;
+  transition: transform 0.7s;
+}
+
+#about-text-1:hover {
+  transform: translateY(-20%);
 }
 
 #about-text-2 {
@@ -338,7 +410,7 @@ footer {
   background: var(--dark-color);
   width: 100%;
   padding: 2rem;
-  transform: translateY(160%);
+  margin-top: 1rem;
 }
 
 #footer-top {
@@ -471,4 +543,103 @@ footer {
   color: var(--light-color);
   font-weight: 100;
   font-size: 0.9rem;
+}
+
+/* servicii */
+
+#servicii {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#servicii > h1 {
+  text-align: center;
+  color: var(--dark-color);
+  margin-bottom: 4rem;
+  font-size: 2rem;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+#buton-servicii {
+  margin-top: 2rem;
+}
+
+/* Contact */
+
+#contact {
+  margin-top: 30rem;
+}
+
+#contact-content {
+  width: 100%;
+  display: flex;
+}
+
+#contact > h1 {
+  text-align: center;
+}
+
+#contact-content > form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex: 2;
+  padding: 2rem;
+}
+
+#contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  padding: 2rem;
+}
+
+#contact-info > div {
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+#contact-adresa,
+#contact-telefon,
+#contact-email {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-adresa > h4,
+#contact-telefon > h4,
+#contact-email > h4 {
+  margin-bottom: 0.75rem;
+}
+
+.input-field {
+  outline: none;
+  border: solid 1px var(--dark-color);
+  border-radius: 5px;
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0.7rem;
+  background: var(--light-color);
+}
+
+/* Keyframes */
+@keyframes showcase-arrow {
+  from {
+    transform: translateY(-5%);
+  }
+  to {
+    transform: translateY(15%);
+  }
 }

@@ -27,7 +27,7 @@ const About = () => {
       id: 3,
       image: thirdImage,
       text:
-        'Suntem sensibili și atenți la problemele pe care le aveți, vă vom ajută să vă simțiți în largul vostru, atât în compania medicilor, a terapeuților, cât și în cea a instrumentelor ori a aparatelor medicale.',
+        'Suntem sensibili și atenți la problemele pe care le aveți, vă vom ajuta să vă simțiți în largul vostru, atât în compania medicilor, a terapeuților, cât și în cea a instrumentelor ori a aparatelor medicale.',
       color: '#2999bc',
       location: 'left',
     },
@@ -43,10 +43,11 @@ const About = () => {
 
   return (
     <section id='despre-noi'>
-      <h2 id='about-heading'>Despre noi</h2>
+      <h1 id='about-heading'>Despre noi</h1>
       <div className='container' id='despre-noi-content'>
         {content.map((info) => (
           <AboutSection
+            key={info.id}
             image={info.image}
             text={info.text}
             color={info.color}

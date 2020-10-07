@@ -36,7 +36,11 @@ const Footer = () => {
         <div id='social'>
           <h3>Social Media</h3>
           <div id='social-links'>
-            <a href='https://www.facebook.com' target='_blank'>
+            <a
+              href='https://www.facebook.com'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <svg id='facebook' width='36' height='36' viewBox='0 0 36 36'>
                 <path
                   id='Path_132'
@@ -54,7 +58,11 @@ const Footer = () => {
                 />
               </svg>
             </a>
-            <a href='https://www.instagram.com' target='_blank'>
+            <a
+              href='https://www.instagram.com'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <img src={Instagram} alt='instagram' id='instagram' />
             </a>
           </div>
