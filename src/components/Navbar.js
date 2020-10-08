@@ -14,16 +14,16 @@ const Navbar = () => {
       <div>
         <ul className='nav-links'>
           <li className='nav-link'>
-            <a href='#showcase'>Acasă</a>
+            <a href='/#showcase'>Acasă</a>
           </li>
           <li className='nav-link'>
-            <a href='#servicii'>Servicii</a>
+            <a href='/#servicii'>Servicii</a>
           </li>
           <li className='nav-link'>
-            <a href='#despre-noi'>Despre noi</a>
+            <a href='/#despre-noi'>Despre noi</a>
           </li>
           <li className='nav-link'>
-            <a href='#contact'>Contact</a>
+            <a href='/#contact'>Contact</a>
           </li>
         </ul>
       </div>

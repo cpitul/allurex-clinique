@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Card = ({ cardContent }) => {
   const { title, text, link } = cardContent;
+
   return (
     <Link to={link} className='card'>
       <div className='card-content'>

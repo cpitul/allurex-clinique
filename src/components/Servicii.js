@@ -70,7 +70,6 @@ const Servicii = () => {
       <a href='#contact' className='btn btn-primary' id='buton-servicii'>
         Contactează-ne
       </a>
-      {/* <div id='servicii-watermark'></div> */}
     </section>
   );
 };

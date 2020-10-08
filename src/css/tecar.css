@@ -1,0 +1,59 @@
+.page-template {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 4rem;
+}
+
+.page-template-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.title-content {
+  padding-right: 4rem;
+  line-height: 1.6;
+}
+
+.title-container {
+  display: inline-block;
+  position: relative;
+  background: rgba(0, 0, 0, 0);
+  margin-bottom: 2rem;
+}
+
+.title-header {
+  position: relative;
+  white-space: nowrap;
+  background: rgba(0, 0, 0, 0);
+}
+
+.title-line {
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  background: #2999bc;
+  opacity: 0.6;
+  top: 60%;
+}
+
+.title-photo {
+  width: 22rem;
+  box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.3);
+  border-radius: 5px;
+}
+
+.text-1-photo {
+  width: 22rem;
+  box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.3);
+  border-radius: 5px;
+}
+
+.text-2-photo {
+  width: 22rem;
+  box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.3);
+  border-radius: 5px;
+}

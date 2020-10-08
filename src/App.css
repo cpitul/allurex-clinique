@@ -564,18 +564,19 @@ footer {
   align-items: center;
   justify-content: center;
   background: rgba(0, 0, 0, 0);
+  width: 80%;
 }
 
 #servicii::before {
   content: '';
   background: url('../src/assets/logo.png') no-repeat center center/cover;
-  width: 60rem;
-  height: 60rem;
+  width: 55rem;
+  height: 55rem;
   position: absolute;
-  left: 25%;
+  left: 12%;
   top: 5%;
   z-index: 0;
-  opacity: 0.05;
+  opacity: 0.1;
   transform: rotate(25deg);
 }
 
