@@ -5,6 +5,7 @@ import Servicii from '../components/Servicii';
 import Showcase from '../components/Showcase';
 
 const MainPage = () => {
+  
   return (
     <Fragment>
       <Showcase />

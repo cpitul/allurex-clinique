@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Card from '../components/utilities/Card';
 
 const Servicii = () => {
@@ -67,9 +68,9 @@ const Servicii = () => {
           <Card key={item.id} cardContent={item} />
         ))}
       </div>
-      <a href='#contact' className='btn btn-primary' id='buton-servicii'>
-        Contactează-ne
-      </a>
+      <Link to='/afectiuni' className='btn btn-primary' id='buton-servicii'>
+        Vezi ce tratăm
+      </Link>
     </section>
   );
 };
