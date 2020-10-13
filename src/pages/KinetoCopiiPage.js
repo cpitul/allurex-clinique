@@ -3,6 +3,13 @@ import PageTemplate from '../components/utilities/PageTemplate'
 import photo1 from '../assets/page_photos/kineto-copii/page/1.JPG'
 import photo2 from '../assets/page_photos/kineto-copii/page/2.JPG'
 import photo3 from '../assets/page_photos/kineto-copii/page/3.JPG'
+import galleryPhoto1 from '../assets/page_photos/kineto-copii/1.JPG'
+import galleryPhoto2 from '../assets/page_photos/kineto-copii/2.JPG'
+import galleryPhoto3 from '../assets/page_photos/kineto-copii/3.JPG'
+import galleryPhoto4 from '../assets/page_photos/kineto-copii/4.JPG'
+import galleryPhoto5 from '../assets/page_photos/kineto-copii/5.JPG'
+import galleryPhoto6 from '../assets/page_photos/kineto-copii/6.JPG'
+import galleryPhoto7 from '../assets/page_photos/kineto-copii/7.JPG'
 
 const KinetoCopiiPage = () => {
   const content = {
@@ -23,6 +30,7 @@ const KinetoCopiiPage = () => {
     text2List: ['vârsta acestuia', 'starea lui de sănătate', 'dispoziţia la şedinţa de kinetoterapie', 'capacitatea lui de adaptare la efort', 'de calităţile motrice ale copilului'],
     text1Photo: photo2,
     text2Photo: photo3,
+    photos: [galleryPhoto1, galleryPhoto2, galleryPhoto3, galleryPhoto4, galleryPhoto5, galleryPhoto6, galleryPhoto7]
   };
 
   return (

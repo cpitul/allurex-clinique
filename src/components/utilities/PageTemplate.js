@@ -1,6 +1,8 @@
 import React from 'react';
 import { useEffect } from 'react';
 import BackButton from '../utilities/BackButton'
+import '../../css/pageTemplate.css'
+import PhotoGallery from './PhotoGallery';
 
 const PageTemplate = ({ pageContent }) => {
   useEffect(() => {
@@ -73,6 +75,7 @@ const PageTemplate = ({ pageContent }) => {
       <a href='/#contact' className='btn btn-primary'>
         Contactează-ne
       </a>
+      {pageContent.photos && <PhotoGallery photos={pageContent.photos} /> }
     </div>
   );
 };

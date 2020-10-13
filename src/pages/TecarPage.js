@@ -3,7 +3,12 @@ import PageTemplate from '../components/utilities/PageTemplate';
 import photo1 from '../assets/page_photos/fiziowarm/page/1.JPG';
 import photo2 from '../assets/page_photos/fiziowarm/page/2.JPG';
 import photo3 from '../assets/page_photos/fiziowarm/page/3.JPG';
-import '../css/tecar.css';
+import galleryPhoto1 from '../assets/page_photos/fiziowarm/1.JPG'
+import galleryPhoto2 from '../assets/page_photos/fiziowarm/2.JPG'
+import galleryPhoto3 from '../assets/page_photos/fiziowarm/3.JPG'
+import galleryPhoto4 from '../assets/page_photos/fiziowarm/4.JPG'
+import galleryPhoto5 from '../assets/page_photos/fiziowarm/5.JPG'
+import galleryPhoto6 from '../assets/page_photos/fiziowarm/6.JPG'
 
 const TecarPage = () => {
   const content = {
@@ -29,7 +34,8 @@ const TecarPage = () => {
     text1Photo: photo2,
     text2Photo: photo3,
     header3: 'Contraindicații:',
-    contraindicatii: ['pacienților care nu au împlinit încă vârsta de 14 ani', 'femeilor gravide', 'pacienților care au probleme de coagulare a sângelui', 'pacienților cu sensibilitate la căldură', 'pacienților care au tulburări de sensibilitate periferică', 'pacienților care au cancer, epilepsie sau procese infecțioase']
+    contraindicatii: ['pacienților care nu au împlinit încă vârsta de 14 ani', 'femeilor gravide', 'pacienților care au probleme de coagulare a sângelui', 'pacienților cu sensibilitate la căldură', 'pacienților care au tulburări de sensibilitate periferică', 'pacienților care au cancer, epilepsie sau procese infecțioase'],
+    photos: [galleryPhoto1, galleryPhoto2, galleryPhoto3, galleryPhoto4, galleryPhoto5, galleryPhoto6]
   };
   return (
     <div className='container tecar-page'>

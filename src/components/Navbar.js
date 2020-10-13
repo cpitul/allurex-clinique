@@ -8,9 +8,6 @@ const Navbar = () => {
   const [nav, setNav] = useState(false)
   
   const handleScroll = () => {
-    const navbarElem = document.querySelector('nav');
-
-    
     if (window.scrollY >= 80) {
       setNav(true)
     } else {
@@ -19,7 +16,6 @@ const Navbar = () => {
   }
   
   useEffect(() => {
-
     window.addEventListener('scroll', handleScroll)
 
     return () => window.removeEventListener('scroll', handleScroll)

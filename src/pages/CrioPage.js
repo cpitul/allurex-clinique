@@ -3,6 +3,11 @@ import PageTemplate from '../components/utilities/PageTemplate'
 import photo1 from '../assets/page_photos/crio/page/1.JPG'
 import photo2 from '../assets/page_photos/crio/page/3.JPG'
 import photo3 from '../assets/page_photos/crio/page/2.JPG'
+import galleryPhoto1 from '../assets/page_photos/crio/1.JPG'
+import galleryPhoto2 from '../assets/page_photos/crio/2.JPG'
+import galleryPhoto3 from '../assets/page_photos/crio/3.JPG'
+import galleryPhoto4 from '../assets/page_photos/crio/4.JPG'
+import galleryPhoto5 from '../assets/page_photos/crio/5.JPG'
 
 const CrioPage = () => {
 
@@ -26,7 +31,8 @@ const CrioPage = () => {
     text1Photo: photo2,
     text2Photo: photo3,
     header3: 'Contraindicații:',
-    contraindicatii: ['osteoporoza cu turnover crescut', 'prezența fragmentelor metalice', 'proteze articulare', 'vene varicoase', 'flebita și tromboflebita', 'prezența unui stimulator cardiac (peace-maker)', 'arteriopatie obliteranta', 'hemoragii, menstruații', 'țesuturi neoplastice și zone limitrofe', 'tuberculoze', 'femei însărcinată', 'subiecți în faza de dezvoltare (copii, adolescenti)', 'pacienții care nu au posibilitatea de a comunica în mod clar terapeutului despre orice senzație dureroasă.', 'Boala Reynaud – la subiecții care suferă de această boală crioterapia poate declansa criza vasospastica', 'arteriopatii obliterante – crioterapia, provocând vasoconstrictie, poate agrava ischemia țesuturilor', 'hipersensibilitate la rece']
+    contraindicatii: ['osteoporoza cu turnover crescut', 'prezența fragmentelor metalice', 'proteze articulare', 'vene varicoase', 'flebita și tromboflebita', 'prezența unui stimulator cardiac (peace-maker)', 'arteriopatie obliteranta', 'hemoragii, menstruații', 'țesuturi neoplastice și zone limitrofe', 'tuberculoze', 'femei însărcinată', 'subiecți în faza de dezvoltare (copii, adolescenti)', 'pacienții care nu au posibilitatea de a comunica în mod clar terapeutului despre orice senzație dureroasă.', 'Boala Reynaud – la subiecții care suferă de această boală crioterapia poate declansa criza vasospastica', 'arteriopatii obliterante – crioterapia, provocând vasoconstrictie, poate agrava ischemia țesuturilor', 'hipersensibilitate la rece'],
+    photos: [galleryPhoto1, galleryPhoto2, galleryPhoto3, galleryPhoto4, galleryPhoto5]
   };
 
   return (

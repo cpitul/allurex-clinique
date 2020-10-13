@@ -3,6 +3,13 @@ import PageTemplate from '../components/utilities/PageTemplate'
 import photo1 from '../assets/page_photos/kineto/page/1.JPG'
 import photo2 from '../assets/page_photos/kineto/page/2.JPG'
 import photo3 from '../assets/page_photos/kineto/page/3.JPG'
+import galleryPhoto1 from '../assets/page_photos/kineto/1.JPG'
+import galleryPhoto2 from '../assets/page_photos/kineto/2.JPG'
+import galleryPhoto3 from '../assets/page_photos/kineto/3.JPG'
+import galleryPhoto4 from '../assets/page_photos/kineto/4.JPG'
+import galleryPhoto5 from '../assets/page_photos/kineto/5.JPG'
+import galleryPhoto6 from '../assets/page_photos/kineto/6.JPG'
+import galleryPhoto7 from '../assets/page_photos/kineto/7.JPG'
 
 const KinetoPage = () => {
   const content = {
@@ -23,6 +30,7 @@ const KinetoPage = () => {
     text2List: ['încetinește pierderea masei osoase și implicit reduce gradul de osteoporoză', 'corectează poziția corpului', 'îmbunătățire vizibilă a mobilității articulare, mai ales după o convalescență îndelungată sau a unui mod de viață sedentar', 'îmbunătățește metabolismul și fluxul sangvin, dar și frecvența respiratorie'],
     text1Photo: photo2,
     text2Photo: photo3,
+    photos: [galleryPhoto1, galleryPhoto2, galleryPhoto3, galleryPhoto4, galleryPhoto5, galleryPhoto6, galleryPhoto7]
   };
 
   return (
