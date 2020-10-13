@@ -1,0 +1,90 @@
+@media screen and (max-width: 768px) {
+  .nav-link > a {
+    font-size: 0.9rem;
+  }
+
+  #logo-text {
+    font-size: 0.9rem;
+  }
+
+  #showcase {
+    flex-direction: column;
+    width: 80%;
+    margin-top: 6rem;
+  }
+
+  .showcase-content {
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+  }
+
+  .showcase-content > h1 {
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .showcase-content > img {
+    width: 25rem;
+  }
+
+  .showcase-backdrop {
+    width: 36rem;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 100%;
+  }
+
+  #servicii::before {
+    width: 30rem;
+    height: 30rem;
+  }
+
+  .card {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  #buton-servicii {
+    margin-top: 0;
+  }
+
+  .about-photo-1,
+  .about-photo-3 {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .about-photo-2,
+  .about-photo-4 {
+    width: 15rem;
+    height: 20rem;
+  }
+
+  #about-text-1,
+  #about-text-2,
+  #about-text-3,
+  #about-text-4 {
+    width: 55%;
+    font-size: 0.8rem;
+    padding: 1.5rem;
+  }
+
+  #about-text-1 {
+    transform: translateY(-30%);
+  }
+
+  .about-section-3 {
+    margin-top: 0;
+  }
+
+  .about-section-4 {
+    transform: translateY(30%);
+  }
+
+  #contact {
+    margin-top: 17rem;
+  }
+}

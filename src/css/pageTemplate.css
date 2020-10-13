@@ -63,7 +63,7 @@ body {
 .title-photo:hover,
 .text-1-photo-container > img:hover,
 .text-2-photo-container > img:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 
 .title-photo {

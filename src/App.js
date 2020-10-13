@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import './css/mediaQueriesWeb.css'
+import './css/mediaQueriesMobile.css'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';

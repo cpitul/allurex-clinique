@@ -14,6 +14,10 @@ const Navbar = () => {
       setNav(false)
     }
   }
+
+  const handleClick = () => {
+    window.scrollTop = 0;
+  }
   
   useEffect(() => {
     window.addEventListener('scroll', handleScroll)
@@ -36,7 +40,7 @@ const Navbar = () => {
         <div>
           <ul className='nav-links'>
             <li className={nav ? 'nav-link dark-nav-text' : 'nav-link'}>
-              <a href='/#showcase'>Acasă</a>
+              <a onClick={() => handleClick()} href='#'>Acasă</a>
             </li>
             <li className={nav ? 'nav-link dark-nav-text' : 'nav-link'}>
               <a href='/#servicii'>Servicii</a>

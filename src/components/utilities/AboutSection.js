@@ -12,13 +12,13 @@ const AboutSection = ({ location, image, text, color, id }) => {
           <p className={`about-text-${location}`} id={`about-text-${id}`}>
             {text}
           </p>
-          <div id={`circle-${id}`}></div>
+
         </section>
       );
     case 'right':
       return (
         <section className={`about-section about-section-${id}`}>
-          <div id={`circle-${id}`}></div>
+
           <p className={`about-text-${location}`} id={`about-text-${id}`}>
             {text}
           </p>
