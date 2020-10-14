@@ -1,13 +1,13 @@
 import React from 'react'
 import PageTemplate from '../components/utilities/PageTemplate'
-import photo1 from '../assets/page_photos/crio/page/1.JPG'
-import photo2 from '../assets/page_photos/crio/page/3.JPG'
-import photo3 from '../assets/page_photos/crio/page/2.JPG'
-import galleryPhoto1 from '../assets/page_photos/crio/1.JPG'
-import galleryPhoto2 from '../assets/page_photos/crio/2.JPG'
-import galleryPhoto3 from '../assets/page_photos/crio/3.JPG'
-import galleryPhoto4 from '../assets/page_photos/crio/4.JPG'
-import galleryPhoto5 from '../assets/page_photos/crio/5.JPG'
+import photo1 from '../assets/page_photos/crio/page/1.jpg'
+import photo2 from '../assets/page_photos/crio/page/3.jpg'
+import photo3 from '../assets/page_photos/crio/page/2.jpg'
+import galleryPhoto1 from '../assets/page_photos/crio/1.jpg'
+import galleryPhoto2 from '../assets/page_photos/crio/2.jpg'
+import galleryPhoto3 from '../assets/page_photos/crio/3.jpg'
+import galleryPhoto4 from '../assets/page_photos/crio/4.jpg'
+import galleryPhoto5 from '../assets/page_photos/crio/5.jpg'
 
 const CrioPage = () => {
 

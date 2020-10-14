@@ -1,8 +1,8 @@
 import React from 'react'
 import PageTemplate from '../components/utilities/PageTemplate'
-import photo1 from '../assets/page_photos/physio/page/1.JPG'
-import photo2 from '../assets/page_photos/physio/page/2.JPG'
-import photo3 from '../assets/page_photos/physio/page/3.JPG'
+import photo1 from '../assets/page_photos/physio/page/1.jpg'
+import photo2 from '../assets/page_photos/physio/page/2.jpg'
+import photo3 from '../assets/page_photos/physio/page/3.jpg'
 
 const PhysioGoPage = () => {
 

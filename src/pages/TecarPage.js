@@ -1,14 +1,14 @@
 import React from 'react';
 import PageTemplate from '../components/utilities/PageTemplate';
-import photo1 from '../assets/page_photos/fiziowarm/page/1.JPG';
-import photo2 from '../assets/page_photos/fiziowarm/page/2.JPG';
-import photo3 from '../assets/page_photos/fiziowarm/page/3.JPG';
-import galleryPhoto1 from '../assets/page_photos/fiziowarm/1.JPG'
-import galleryPhoto2 from '../assets/page_photos/fiziowarm/2.JPG'
-import galleryPhoto3 from '../assets/page_photos/fiziowarm/3.JPG'
-import galleryPhoto4 from '../assets/page_photos/fiziowarm/4.JPG'
-import galleryPhoto5 from '../assets/page_photos/fiziowarm/5.JPG'
-import galleryPhoto6 from '../assets/page_photos/fiziowarm/6.JPG'
+import photo1 from '../assets/page_photos/fiziowarm/page/1.jpg';
+import photo2 from '../assets/page_photos/fiziowarm/page/2.jpg';
+import photo3 from '../assets/page_photos/fiziowarm/page/3.jpg';
+import galleryPhoto1 from '../assets/page_photos/fiziowarm/1.jpg'
+import galleryPhoto2 from '../assets/page_photos/fiziowarm/2.jpg'
+import galleryPhoto3 from '../assets/page_photos/fiziowarm/3.jpg'
+import galleryPhoto4 from '../assets/page_photos/fiziowarm/4.jpg'
+import galleryPhoto5 from '../assets/page_photos/fiziowarm/5.jpg'
+import galleryPhoto6 from '../assets/page_photos/fiziowarm/6.jpg'
 
 const TecarPage = () => {
   const content = {

@@ -2,7 +2,7 @@ import React from 'react';
 import Instagram from '../assets/instagram.png';
 
 const Footer = () => {
-  const handleSubmit = (e) => {};
+  // const handleSubmit = (e) => {};
 
   return (
     <footer>
@@ -10,20 +10,20 @@ const Footer = () => {
         <div id='footer-nav'>
           <ul id='footer-links'>
             <li className='footer-link'>
-              <a href='#showcase'>Acasă</a>
+              <a href='/#showcase'>Acasă</a>
             </li>
             <li className='footer-link'>
-              <a href='#servicii'>Servicii</a>
+              <a href='/#servicii'>Servicii</a>
             </li>
             <li className='footer-link'>
-              <a href='#despre-noi'>Despre noi</a>
+              <a href='/#despre-noi'>Despre noi</a>
             </li>
             <li className='footer-link'>
-              <a href='#contact'>Contact</a>
+              <a href='/#contact'>Contact</a>
             </li>
           </ul>
         </div>
-        <div id='subscribe-form'>
+        {/* <div id='subscribe-form'>
           <h3>Newsletter</h3>
           <form action='post' onSubmit={handleSubmit} id='newsletter-form'>
             <label htmlFor='email'>Email</label>
@@ -32,7 +32,7 @@ const Footer = () => {
               <input type='submit' value='Abonează-te' id='form-submit' />
             </div>
           </form>
-        </div>
+        </div> */}
         <div id='social'>
           <h3>Social Media</h3>
           <div id='social-links'>

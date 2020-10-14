@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import Logo from '../assets/logo.png';
 
 
@@ -30,17 +29,17 @@ const Navbar = () => {
   return (
     <nav className={nav ? 'dark-nav' : ''}>
       <div className="nav-bar">
-        <Link to='/' id='logo'>
-          <a id='logo-img-link' href='/'>
+        <a href='/#showcase' id='logo' onClick={() => handleClick()}>
+          <div id='logo-img-link'>
             <img id='logo-img' src={Logo} alt='logo' />
-          </a>
+          </div>
           <p id='logo-text' className={nav ? 'dark-nav-text' : ''}>Mereu aproape de tine</p>
-        </Link>
+        </a>
 
         <div>
           <ul className='nav-links'>
             <li className={nav ? 'nav-link dark-nav-text' : 'nav-link'}>
-              <a onClick={() => handleClick()} href='#'>Acasă</a>
+              <a onClick={() => handleClick()} href='/#showcase'>Acasă</a>
             </li>
             <li className={nav ? 'nav-link dark-nav-text' : 'nav-link'}>
               <a href='/#servicii'>Servicii</a>
