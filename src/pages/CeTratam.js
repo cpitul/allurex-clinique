@@ -50,6 +50,7 @@ const CeTratam = () => {
           pageContent.map((section, index) => <AfectiuniTemplate key={index} content={section} id={index} /> )
         }
         <a href="/#contact" className="btn btn-primary afectiuni-button">Contactează-ne</a>
+        <BackButton />
 
     </div>
   )

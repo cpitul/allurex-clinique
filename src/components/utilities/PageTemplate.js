@@ -77,6 +77,7 @@ const PageTemplate = ({ pageContent }) => {
         Contactează-ne
       </a>
       {pageContent.photos && <PhotoGallery photos={pageContent.photos} /> }
+      <BackButton />
     </div>
   );
 };
