@@ -3,7 +3,7 @@ import About from '../components/About';
 import Contact from '../components/Contact';
 import Servicii from '../components/Servicii';
 import Showcase from '../components/Showcase';
-import ScrollTop from '../components/utilities/ScrollTop';
+// import ScrollTop from '../components/utilities/ScrollTop';
 
 const MainPage = () => {
   
@@ -13,7 +13,7 @@ const MainPage = () => {
       <Servicii />
       <About />
       <Contact />
-      <ScrollTop />
+      {/* <ScrollTop /> */}
     </Fragment>
   );
 };

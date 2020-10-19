@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <nav className={nav ? 'dark-nav' : ''}>
       <div className="nav-bar">
-        <a href='/#showcase' id='logo' onClick={() => handleClick()}>
+        <a href='/#showcase' id='logo' className={nav ? 'dark-nav-link' : ''} onClick={() => handleClick()}>
           <div id='logo-img-link'>
             <img id='logo-img' src={Logo} alt='logo' />
           </div>
