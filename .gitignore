@@ -10,9 +10,7 @@
 
 # production
 /build
-/src/assets/photos
-/src/assets/allurex-clinique-text-site.docx
-/src/assets/logos
+/stuff
 
 # misc
 .DS_Store
