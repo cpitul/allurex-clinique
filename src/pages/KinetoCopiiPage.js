@@ -10,6 +10,7 @@ import galleryPhoto4 from '../assets/page_photos/kineto-copii/4.jpg'
 import galleryPhoto5 from '../assets/page_photos/kineto-copii/5.jpg'
 import galleryPhoto6 from '../assets/page_photos/kineto-copii/6.jpg'
 import galleryPhoto7 from '../assets/page_photos/kineto-copii/7.jpg'
+import galleryPhoto8 from '../assets/page_photos/kineto-copii/8.jpg'
 
 const KinetoCopiiPage = () => {
   const content = {
@@ -30,7 +31,7 @@ const KinetoCopiiPage = () => {
     text2List: ['vârsta acestuia', 'starea lui de sănătate', 'dispoziţia la şedinţa de kinetoterapie', 'capacitatea lui de adaptare la efort', 'de calităţile motrice ale copilului'],
     text1Photo: photo2,
     text2Photo: photo3,
-    photos: [galleryPhoto1, galleryPhoto2, galleryPhoto3, galleryPhoto4, galleryPhoto5, galleryPhoto6, galleryPhoto7]
+    photos: [galleryPhoto1, galleryPhoto2, galleryPhoto3, galleryPhoto4, galleryPhoto5, galleryPhoto6, galleryPhoto7, galleryPhoto8]
   };
 
   return (

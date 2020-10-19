@@ -59,7 +59,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href='https://www.instagram.com'
+              href='https://www.instagram.com/allurexclinique/'
               target='_blank'
               rel='noopener noreferrer'
             >

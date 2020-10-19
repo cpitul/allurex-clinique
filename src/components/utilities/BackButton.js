@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BackButton = () => {
+const BackButton = ({to}) => {
   return (
     <a href="/#servicii" className='btn btn-secondary back-button'>Înapoi</a>
   )

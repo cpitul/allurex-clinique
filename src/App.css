@@ -334,6 +334,8 @@ nav {
   text-align: center;
   color: var(--dark-color);
   font-size: 2rem;
+  position: relative;
+  background: rgba(0, 0, 0, 0);
 }
 
 .about-section {

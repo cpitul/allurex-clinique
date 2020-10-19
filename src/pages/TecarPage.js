@@ -9,6 +9,8 @@ import galleryPhoto3 from '../assets/page_photos/fiziowarm/3.jpg'
 import galleryPhoto4 from '../assets/page_photos/fiziowarm/4.jpg'
 import galleryPhoto5 from '../assets/page_photos/fiziowarm/5.jpg'
 import galleryPhoto6 from '../assets/page_photos/fiziowarm/6.jpg'
+import galleryPhoto7 from '../assets/page_photos/fiziowarm/7.jpg'
+import galleryPhoto8 from '../assets/page_photos/fiziowarm/8.jpg'
 
 const TecarPage = () => {
   const content = {
@@ -35,7 +37,7 @@ const TecarPage = () => {
     text2Photo: photo3,
     header3: 'Contraindicații:',
     contraindicatii: ['pacienților care nu au împlinit încă vârsta de 14 ani', 'femeilor gravide', 'pacienților care au probleme de coagulare a sângelui', 'pacienților cu sensibilitate la căldură', 'pacienților care au tulburări de sensibilitate periferică', 'pacienților care au cancer, epilepsie sau procese infecțioase'],
-    photos: [galleryPhoto1, galleryPhoto2, galleryPhoto3, galleryPhoto4, galleryPhoto5, galleryPhoto6]
+    photos: [galleryPhoto1, galleryPhoto2, galleryPhoto3, galleryPhoto4, galleryPhoto5, galleryPhoto6, galleryPhoto7, galleryPhoto8]
   };
   return (
     <div className='container tecar-page'>

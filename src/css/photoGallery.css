@@ -23,7 +23,8 @@
 .photo-3,
 .photo-4,
 .photo-5,
-.photo-6 {
+.photo-6,
+.photo-7 {
   width: 19rem;
   box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.4),
     -3px -3px 3px rgba(51, 51, 51, 0.4);
@@ -37,7 +38,8 @@
 .photo-3:hover,
 .photo-4:hover,
 .photo-5:hover,
-.photo-6:hover {
+.photo-6:hover,
+.photo-7:hover {
   transform: scale(1.2);
 }
 

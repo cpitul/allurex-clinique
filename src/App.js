@@ -12,8 +12,7 @@ import KinetoPage from './pages/KinetoPage'
 import CrioPage from './pages/CrioPage'
 import PhysioGoPage from './pages/PhysioGoPage'
 import KinetoCopiiPage from './pages/KinetoCopiiPage'
-import AfectiuniPage from './pages/AfectiuniPage'
-
+import CeTratam from './pages/CeTratam';
 
 const App = () => {
   
@@ -29,7 +28,7 @@ const App = () => {
           <Route exact path='/crioultrasound' component={CrioPage} />
           <Route exact path='/physiogo' component={PhysioGoPage} />
           <Route exact path='/kinetocopii' component={KinetoCopiiPage} />
-          <Route exact path='/afectiuni' component={AfectiuniPage} />
+          <Route exact path='/afectiuni' component={CeTratam} />
         </Switch>
         <Footer />
       </Router>

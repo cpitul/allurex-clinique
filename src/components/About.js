@@ -11,7 +11,7 @@ const About = () => {
       id: 1,
       image: firstImage,
       text:
-        'Echipa de specialisti AllureX, ne-am propus să vă oferim tot ce este mai bun în materie de servicii medicale, să vă ascultăm și să fim atenți la exigențele voastre, pentru ca în final să reușim să stabilim un raport de încredere și de respect reciproc.',
+        'Echipa de specialisti Allurex, ne-am propus să vă oferim tot ce este mai bun în materie de servicii medicale, să vă ascultăm și să fim atenți la exigențele voastre, pentru ca în final să reușim să stabilim un raport de încredere și de respect reciproc.',
       color: '#2999bc',
       location: 'left',
     },

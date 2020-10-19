@@ -41,6 +41,7 @@ const PageTemplate = ({ pageContent }) => {
           <img src={text1Photo} alt='poza' className='text-1-photo' />
         </div>
         <div className='section-1-content'>
+          
           <h3 className='section-1-header'>{header1}</h3>
           {pageContent.section1Text && <p className="section-1-text">{pageContent.section1Text}</p> }
           <ul className='section-1-list'>

@@ -7,7 +7,7 @@ const Showcase = () => {
     <section id='showcase' className='container'>
       <div className='showcase-content'>
         <img src={LogoText} alt='logo-text' />
-        <h1>Susținători al echilibrului organismului.</h1>
+        <h1>Susținători ai echilibrului organismului.</h1>
         <div id='showcase-buttons'>
           <a href='#despre-noi' className='btn btn-primary'>
             Despre noi
