@@ -1,9 +1,9 @@
 import React from 'react';
 import AboutSection from './utilities/AboutSection';
-import firstImage from '../assets/12.jpg';
-import secondImage from '../assets/24.jpg';
-import thirdImage from '../assets/6.jpg';
-import fourthImage from '../assets/25.jpg';
+import firstImage from '../assets/page_photos/despre_noi/1.jpg';
+import secondImage from '../assets/page_photos/despre_noi/2.jpg';
+import thirdImage from '../assets/page_photos/despre_noi/3.jpg';
+import fourthImage from '../assets/page_photos/despre_noi/4.jpg';
 
 const About = () => {
   const content = [
@@ -11,7 +11,7 @@ const About = () => {
       id: 1,
       image: firstImage,
       text:
-        'Echipa de specialisti Allurex, ne-am propus să vă oferim tot ce este mai bun în materie de servicii medicale, să vă ascultăm și să fim atenți la exigențele voastre, pentru ca în final să reușim să stabilim un raport de încredere și de respect reciproc.',
+        'Noi, echipa de specialisti Allurex, ne-am propus să vă oferim tot ce este mai bun în materie de servicii medicale, să vă ascultăm și să fim atenți la exigențele voastre, pentru ca în final să reușim să stabilim un raport de încredere și de respect reciproc.',
       color: '#2999bc',
       location: 'left',
     },
