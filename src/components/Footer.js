@@ -37,7 +37,7 @@ const Footer = () => {
           <h3>Social Media</h3>
           <div id='social-links'>
             <a
-              href='https://www.facebook.com'
+              href='https://www.facebook.com/allurexclinique/'
               target='_blank'
               rel='noopener noreferrer'
             >
