@@ -11,6 +11,8 @@
 # production
 /build
 /stuff
+/src/serviceWorker.js
+/public/manifest.json
 
 # misc
 .DS_Store
