@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import {Link as ScrollLink} from 'react-scroll'
 import LogoText from '../assets/logo-text.png';
 
 const Showcase = () => {
@@ -9,9 +10,9 @@ const Showcase = () => {
         <img src={LogoText} alt='logo-text' />
         <h1>Susținători ai echilibrului organismului.</h1>
         <div id='showcase-buttons'>
-          <a href='#despre-noi' className='btn btn-primary'>
-            Despre noi
-          </a>
+        <ScrollLink to='despre-noi' activeClass='active' smooth={true} offset={-90} duration={500} className='scroll-link btn btn-primary'>
+                Despre noi
+              </ScrollLink>
           <Link to='/afectiuni' className='btn btn-secondary'>
             Ce tratăm
           </Link>

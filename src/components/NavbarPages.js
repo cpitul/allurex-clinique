@@ -1,7 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { Link as ScrollLink } from 'react-scroll'
 import Logo from '../assets/logo.png';
-
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -26,34 +24,34 @@ const Navbar = () => {
   return (
     <nav className={nav ? 'dark-nav' : ''}>
       <div className="nav-bar">
-        <ScrollLink to='showcase' id='logo' className={nav ? 'dark-nav-link scroll-link' : 'scroll-link'} smooth={true} offset={-65} duration={500} >
+        <a href='/#showcase' id='logo' className={nav ? 'dark-nav-link' : ''}>
           <div id='logo-img-link'>
             <img id='logo-img' src={Logo} alt='logo' />
           </div>
           <p id='logo-text' className={nav ? 'dark-nav-text' : ''}>Mereu aproape de tine</p>
-        </ScrollLink>
+        </a>
 
         <div>
           <ul className='nav-links'>
             <li className={nav ? 'nav-link dark-nav-text' : 'nav-link'}>
-              <ScrollLink to='showcase' smooth={true} offset={-65} duration={500} className='scroll-link'>
+              <a href='/#showcase'>
                 Acasă
-              </ScrollLink>
+              </a>
             </li>
             <li className={nav ? 'nav-link dark-nav-text' : 'nav-link'}>
-              <ScrollLink to='servicii' smooth={true} offset={-75} duration={500} className='scroll-link'>
+              <a href='/#servicii'>
                 Servicii
-              </ScrollLink>
+              </a>
             </li>
             <li className={nav ? 'nav-link dark-nav-text' : 'nav-link'}>
-              <ScrollLink to='despre-noi' smooth={true} offset={-90} duration={500} className='scroll-link'>
+              <a href='/#despre-noi'>
                 Despre noi
-              </ScrollLink>
+              </a>
             </li>
             <li className={nav ? 'nav-link dark-nav-text' : 'nav-link'}>
-              <ScrollLink to='contact' smooth={true} offset={-100} duration={500} className='scroll-link'>
+              <a href='/#contact'>
                 Contact
-              </ScrollLink>
+              </a>
             </li>
           </ul>
         </div>

@@ -33,7 +33,12 @@
 
 .afectiuni-list {
   list-style: disc;
-  padding: 0 3rem;
+  padding-left: 2rem;
+  width: 70%;
+}
+
+.afectiuni-list-item {
+  margin-bottom: 1rem;
 }
 
 .afectiuni-text-1,

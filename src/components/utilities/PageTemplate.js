@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import BackButton from '../utilities/BackButton'
 import '../../css/pageTemplate.css'
 import PhotoGallery from './PhotoGallery';
+import NavbarPages from '../NavbarPages'
 
 const PageTemplate = ({ pageContent }) => {
   useEffect(() => {
@@ -25,6 +26,7 @@ const PageTemplate = ({ pageContent }) => {
   } = pageContent;
   return (
     <div className='page-template container'>
+      <NavbarPages />
       <BackButton />
       <div className='page-template-title-container'>
         <div className='title-content'>

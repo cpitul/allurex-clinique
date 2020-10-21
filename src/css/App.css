@@ -163,7 +163,13 @@ ul {
 .dark-nav-text > a {
   color: var(--light-color) !important;
 }
+
 /* navigation bar */
+
+.scroll-link {
+  cursor: pointer;
+}
+
 nav {
   width: 100%;
   position: fixed;

@@ -7,6 +7,7 @@ import photoGenunchi from '../assets/page_photos/afectiuni/genunchi.jpg'
 import photoSpasticitate from '../assets/page_photos/afectiuni/spasticitate.jpg'
 import photoDistonii from '../assets/page_photos/afectiuni/distonii.jpg'
 import BackButton from '../components/utilities/BackButton'
+import NavbarPages from '../components/NavbarPages'
 
 const CeTratam = () => {
   const pageContent = [
@@ -44,7 +45,7 @@ const CeTratam = () => {
 
   return (
     <div className='container ce-tratam-container'>
-
+        <NavbarPages />
         <BackButton />
         {
           pageContent.map((section, index) => <AfectiuniTemplate key={index} content={section} id={index} /> )
