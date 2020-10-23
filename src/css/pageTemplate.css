@@ -20,9 +20,14 @@ body {
 }
 
 .title-content {
-  padding-right: 4rem;
+  /* padding-right: 6rem; */
   line-height: 1.6;
   letter-spacing: 0.5px;
+  flex: 2;
+}
+
+.title-text {
+  font-weight: 500;
 }
 
 .title-text-2 {
@@ -47,6 +52,11 @@ body {
   letter-spacing: 0.7px;
 }
 
+.section-1-text-2,
+.section-1-text-3 {
+  margin-top: 1rem;
+}
+
 .title-header::before,
 .section-1-header::before,
 .section-2-header::before,
@@ -64,6 +74,7 @@ body {
 
 .title-photo:hover,
 .text-1-photo-container > img:hover,
+.text-3-photo-container > img:hover,
 .text-2-photo-container > img:hover {
   transform: scale(1.2);
 }
@@ -75,6 +86,18 @@ body {
   border-radius: 5px;
   z-index: 1;
   transition: transform 0.4s;
+  flex: 1;
+  margin-left: 4rem;
+}
+
+.title-list {
+  list-style: disc;
+  line-height: 1.4;
+  padding-left: 2rem;
+}
+
+.title-list-item {
+  margin-top: 1rem;
 }
 
 .text-1-photo {
@@ -91,8 +114,16 @@ body {
   border-radius: 5px;
 }
 
+.text-3-photo {
+  width: 30rem;
+  box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.2),
+    -3px -3px 3px rgba(51, 51, 51, 0.2);
+  border-radius: 5px;
+}
+
 .text-1-photo-container,
-.text-2-photo-container {
+.text-2-photo-container,
+.text-3-photo-container {
   flex: 1;
   width: 100%;
   z-index: 1;
@@ -101,17 +132,27 @@ body {
 }
 
 .text-1-photo-container > img,
-.text-2-photo-container > img {
+.text-2-photo-container > img,
+.text-3-photo-container > img {
   transition: transform 0.4s;
 }
 
 .page-template-section-1,
 .page-template-section-2,
 .page-template-section-3 {
-  display: flex;
+  display: grid;
   margin-top: 4rem;
   margin-bottom: 2rem;
   padding: 1rem;
+}
+
+.page-template-section-1,
+.page-template-section-3 {
+  grid-template-columns: 1fr 2fr;
+}
+
+.page-template-section-2 {
+  grid-template-columns: 2fr 1fr;
 }
 
 .section-1-content {
@@ -119,7 +160,8 @@ body {
 }
 
 .section-1-content,
-.section-2-content {
+.section-2-content,
+.section-3-content {
   align-self: center;
   flex: 2;
   line-height: 1.4;
@@ -181,10 +223,17 @@ body {
   margin-right: 4rem;
 }
 
-.section-2-text {
+.section-3-content {
+  margin-left: 4rem;
+}
+
+.section-2-text,
+.section-3-text-1,
+.section-3-text-2 {
   line-height: 1.4;
   letter-spacing: 0.5px;
   margin-bottom: 1rem;
+  background: rgba(0, 0, 0, 0);
 }
 
 .section-2-list {

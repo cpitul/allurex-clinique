@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <nav className={nav ? 'dark-nav' : ''}>
       <div className="nav-bar">
-        <a href='/#showcase' id='logo' className={nav ? 'dark-nav-link' : ''}>
+        <a href='/#showcase-anchor' id='logo' className={nav ? 'dark-nav-link' : ''}>
           <div id='logo-img-link'>
             <img id='logo-img' src={Logo} alt='logo' />
           </div>
@@ -34,22 +34,22 @@ const Navbar = () => {
         <div>
           <ul className='nav-links'>
             <li className={nav ? 'nav-link dark-nav-text' : 'nav-link'}>
-              <a href='/#showcase'>
+              <a href='/#showcase-anchor'>
                 Acasă
               </a>
             </li>
             <li className={nav ? 'nav-link dark-nav-text' : 'nav-link'}>
-              <a href='/#servicii'>
+              <a href='/#servicii-anchor'>
                 Servicii
               </a>
             </li>
             <li className={nav ? 'nav-link dark-nav-text' : 'nav-link'}>
-              <a href='/#despre-noi'>
+              <a href='/#despre-noi-anchor'>
                 Despre noi
               </a>
             </li>
             <li className={nav ? 'nav-link dark-nav-text' : 'nav-link'}>
-              <a href='/#contact'>
+              <a href='/#contact-anchor'>
                 Contact
               </a>
             </li>

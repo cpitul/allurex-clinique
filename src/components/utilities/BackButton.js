@@ -2,7 +2,7 @@ import React from 'react'
 
 const BackButton = ({to}) => {
   return (
-    <a href="/#servicii" className='btn btn-secondary back-button'>Înapoi</a>
+    <a href="/#servicii-anchor" className='btn btn-secondary back-button'>Înapoi</a>
   )
 }
 

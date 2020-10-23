@@ -16,7 +16,8 @@ const KinetoCopiiPage = () => {
   const content = {
     title: 'Kinetoterapie pentru bebeluși și copii',
     titleText:
-      `Pentru a da nou-născutului aceste informaţii, familia va avea rol predominant, nivelul ei educaţional fiind definitoriu, fiind, pe de o parte, reflexiv individual, de unitate schematică familială şi, pe de altă parte, social, ca spaţiul în care se transmit şi se învaţă manifestările relaţionale, deprinderi şi obiceiuri. Din primele zile ale vieţii copilului, mama trebuie să înţeleagă necesitatea mişcării şi dezvoltării fizice armonioase a copilului. Copilul nu trebuie neapărat să aibă probleme de sănătate pentru a face kinetoterapie – pentru că mişcarea este cea mai neinvazivă şi ieftină formă de terapie.`,
+      `Pentru a da nou-născutului aceste informaţii, familia va avea rol predominant, nivelul ei educaţional fiind definitoriu, fiind, pe de o parte, reflexiv individual, de unitate schematică familială şi, pe de altă parte, social, ca spaţiul în care se transmit şi se învaţă manifestările relaţionale, deprinderi şi obiceiuri.`,
+      titleText2: 'Din primele zile ale vieţii copilului, mama trebuie să înţeleagă necesitatea mişcării şi dezvoltării fizice armonioase a copilului. Copilul nu trebuie neapărat să aibă probleme de sănătate pentru a face kinetoterapie – pentru că mişcarea este cea mai neinvazivă şi ieftină formă de terapie.',
     titlePhoto: photo1,
     header1: 'Kinetoterapia îmbunătățește:',
     header2: 'Beneficii:',

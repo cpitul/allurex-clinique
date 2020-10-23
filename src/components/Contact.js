@@ -3,6 +3,7 @@ import React from 'react';
 const Contact = () => {
   return (
     <section id='contact' className='container'>
+      <div id="contact-anchor"></div>
       <h1>Contact</h1>
       <div id='contact-content'>
         <form action='post'>

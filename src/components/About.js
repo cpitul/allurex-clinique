@@ -43,6 +43,7 @@ const About = () => {
 
   return (
     <section id='despre-noi'>
+      <div id="despre-noi-anchor"></div>
       <h1 id='about-heading'>Despre noi</h1>
       <div className='container' id='despre-noi-content'>
         {content.map((info) => (

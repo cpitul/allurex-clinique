@@ -10,16 +10,16 @@ const Footer = () => {
         <div id='footer-nav'>
           <ul id='footer-links'>
             <li className='footer-link'>
-              <a href='/#showcase'>Acasă</a>
+              <a href='/#showcase-anchor'>Acasă</a>
             </li>
             <li className='footer-link'>
-              <a href='/#servicii'>Servicii</a>
+              <a href='/#servicii-anchor'>Servicii</a>
             </li>
             <li className='footer-link'>
-              <a href='/#despre-noi'>Despre noi</a>
+              <a href='/#despre-noi-anchor'>Despre noi</a>
             </li>
             <li className='footer-link'>
-              <a href='/#contact'>Contact</a>
+              <a href='/#contact-anchor'>Contact</a>
             </li>
           </ul>
         </div>

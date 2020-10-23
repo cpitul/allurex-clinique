@@ -6,6 +6,7 @@ import LogoText from '../assets/logo-text.png';
 const Showcase = () => {
   return (
     <section id='showcase' className='container'>
+      <div id="showcase-anchor"></div>
       <div className='showcase-content'>
         <img src={LogoText} alt='logo-text' />
         <h1>Susținători ai echilibrului organismului.</h1>

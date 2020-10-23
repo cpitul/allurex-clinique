@@ -16,7 +16,8 @@ const KinetoPage = () => {
   const content = {
     title: 'Kinetoterapie',
     titleText:
-      `Kinetoterapia este terapie prin mișcare care ajută atât în recuperarea afecţiunilor locomotorii, cât și în tratarea unor afecţiuni ale organelor interne, boli cardiovasculare, respiratorii, metabolice și chiar digestive. Prin kinetoterapie se îmbunătățesc forța și rezistența musculară, mobilitatea și coordonarea mișcărilor cu ajutorul programelor kinetice complexe de masaj terapeutic, gimnastică medicală și exerciții elaborate individual.`,
+      `Kinetoterapia este terapie prin mișcare care ajută atât în recuperarea afecţiunilor locomotorii, cât și în tratarea unor afecţiuni ale organelor interne, boli cardiovasculare, respiratorii, metabolice și chiar digestive.`,
+      titleText2: 'Prin kinetoterapie se îmbunătățesc forța și rezistența musculară, mobilitatea și coordonarea mișcărilor cu ajutorul programelor kinetice complexe de masaj terapeutic, gimnastică medicală și exerciții elaborate individual.',
     titlePhoto: photo1,
     header1: 'Se recomandă pentru:',
     header2: 'Indicații:',

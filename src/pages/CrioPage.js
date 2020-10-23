@@ -14,8 +14,8 @@ const CrioPage = () => {
   const content = {
     title: 'CrioUltrasound II',
     titleText:
-      `Este un aparat inovativ care are la baza sinergia a doua tehnici terapeutice: crioterapia (terapia cu gheață) și terapia cu ultrasunet. Aparatul permite atât folosirea simultană a celor 2 terapii, cât și folosirea separată a criogeniei și/sau a terapiei cu ultrasunte. O şedină de CRIOULTRASUNETE durează între 10 şi 30 de minute. Aplicarea se poate face prin mişcarea aplicatorului pe zona afectată, dar şi într-un singur punct fix, prin folosirea pantografului.`,
-    titleText2: '',
+      `Este un aparat inovativ care are la baza sinergia a doua tehnici terapeutice: crioterapia (terapia cu gheață) și terapia cu ultrasunet. Aparatul permite atât folosirea simultană a celor 2 terapii, cât și folosirea separată a criogeniei și/sau a terapiei cu ultrasunte.`,
+    titleText2: 'O şedină de CRIOULTRASUNETE durează între 10 şi 30 de minute. Aplicarea se poate face prin mişcarea aplicatorului pe zona afectată, dar şi într-un singur punct fix, prin folosirea pantografului.',
     titlePhoto: photo1,
     header1: 'Cum funcționează:',
     section1Text: '',

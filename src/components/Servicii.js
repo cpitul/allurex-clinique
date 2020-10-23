@@ -62,6 +62,7 @@ const Servicii = () => {
   ];
   return (
     <section id='servicii' className='container'>
+      <div id="servicii-anchor"></div>
       <h1>Servicii oferite</h1>
       <div className='cards-container'>
         {content.map((item) => (

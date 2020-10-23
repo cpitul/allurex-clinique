@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <nav className={nav ? 'dark-nav' : ''}>
       <div className="nav-bar">
-        <ScrollLink to='showcase' id='logo' className={nav ? 'dark-nav-link scroll-link' : 'scroll-link'} smooth={true} offset={-65} duration={500} >
+        <ScrollLink to='showcase' id='logo' className={nav ? 'dark-nav-link scroll-link' : 'scroll-link'} smooth={true} offset={-130} duration={500} >
           <div id='logo-img-link'>
             <img id='logo-img' src={Logo} alt='logo' />
           </div>
@@ -36,7 +36,7 @@ const Navbar = () => {
         <div>
           <ul className='nav-links'>
             <li className={nav ? 'nav-link dark-nav-text' : 'nav-link'}>
-              <ScrollLink to='showcase' smooth={true} offset={-65} duration={500} className='scroll-link'>
+              <ScrollLink to='showcase' smooth={true} offset={-130} duration={500} className='scroll-link'>
                 Acasă
               </ScrollLink>
             </li>
