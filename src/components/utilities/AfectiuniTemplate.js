@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react'
 
 
+
 const AfectiuniTemplate = ({content, id}) => {
   const {header, text, list, photo} = content;
 
@@ -12,7 +13,7 @@ const AfectiuniTemplate = ({content, id}) => {
 
   return (
     <div className={`afectiuni-section-${id} afectiuni-sections`}>
-
+ 
       <div className={`afectiuni-text-${id} afectiuni-text`}>
         <div className='afectiuni-text-header-container'>
           <h1 className='afectiuni-text-header'>{header}</h1>

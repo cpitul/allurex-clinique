@@ -246,3 +246,7 @@ body {
 .section-2-list-item {
   margin-bottom: 0.75rem;
 }
+
+.physio > .page-template > .page-template-section-3::after {
+  display: none;
+}

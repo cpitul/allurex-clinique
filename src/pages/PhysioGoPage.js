@@ -3,7 +3,11 @@ import PageTemplate from '../components/utilities/PageTemplate'
 import photo1 from '../assets/page_photos/physio/page/1.jpg'
 import photo2 from '../assets/page_photos/physio/page/2.jpg'
 import photo3 from '../assets/page_photos/physio/page/3.jpg'
-import photo4 from '../assets/page_photos/physio/page/3.jpg'
+import photo4 from '../assets/page_photos/physio/page/4.jpg'
+import photoGallery1 from '../assets/page_photos/physio/1.jpg'
+import photoGallery2 from '../assets/page_photos/physio/2.jpg'
+import photoGallery3 from '../assets/page_photos/physio/3.jpg'
+
 
 const PhysioGoPage = () => {
 
@@ -38,10 +42,11 @@ const PhysioGoPage = () => {
       indicatii: ['vindecarea dificilă a rănilor și a ulcerațiilor', 'răni post-operatorii, post-amputație', 'necroza pielii, vătămări ale pielii', 'ulcerații ale gambelor, ulcerații trofice', 'arsuri', 'degerături', 'ulcere de decubit', 'cicatrici fără fibroză', 'riduri', 'celulită', 'acnee simplă, herpes simplu', 'afte', 'psoriazis', 'condiții de artrită cronică', 'sindromul umărului dureros', 'sindromul de tunel carpian', 'hemoragii subcutanate (echimoze)', 'leziuni articulare, entorse, luxații', 'terticolis', 'sindromul Sudeck (stadiul I și II)', 'spondilită anchilozantă', 'artrită reumatoidă', 'spondiloartroze, coxartroze, gonartroză', 'sindrom de suprasarcină musculară', 'nevralgii ale nervilor periferici', 'nevralgii dupa herpes zoster', 'neuropatia diabetică'],
       contraindicatii: ['afecțiuni neuroplastice', 'tuberculoză activă', 'predispunere la sângerări', 'condiții de febră', 'sarcină', 'aritmie și insuficiență circulatorie', 'fotofobie', 'diabet necontrolat']
     },
+    photos: [photoGallery1, photoGallery2, photoGallery3]
   };
 
   return (
-    <div className='container tecar-page'>
+    <div className='container physio'>
       <PageTemplate pageContent={content} />
     </div>
   )

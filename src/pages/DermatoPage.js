@@ -8,6 +8,7 @@ import galleryPhoto2 from '../assets/page_photos/dermato/2.jpg'
 import galleryPhoto3 from '../assets/page_photos/dermato/3.jpeg'
 import galleryPhoto4 from '../assets/page_photos/dermato/4.jpg'
 import galleryPhoto5 from '../assets/page_photos/dermato/5.jpg'
+// import galleryPhoto6 from '../assets/page_photos/dermato/6.jpg'
 
 const DermatoPage = () => {
   const content = {
