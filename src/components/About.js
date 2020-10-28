@@ -11,7 +11,7 @@ const About = () => {
       id: 1,
       image: firstImage,
       text:
-        'Noi, echipa de specialisti Allurex, ne-am propus să vă oferim tot ce este mai bun în materie de servicii medicale, să vă ascultăm și să fim atenți la exigențele voastre, pentru ca în final să reușim să stabilim un raport de încredere și de respect reciproc.',
+        'Noi, cei din echipa de specialiști Allurex, vă oferim tot ce este mai bun în materie de servicii medicale, vă ascultăm și suntem atenți la exigențele voastre, pentru ca în final să reușim să stabilim un raport de încredere și de respect reciproc.',
       color: '#2999bc',
       location: 'left',
     },
@@ -19,7 +19,7 @@ const About = () => {
       id: 2,
       image: secondImage,
       text:
-        'Prin serviciile noastre vrem să concretizăm mai mult decât un simplu schimb comercial.',
+        'Prin serviciile noastre concretizăm mai mult decât un simplu schimb comercial.',
       color: '#fac970',
       location: 'right',
     },
@@ -27,7 +27,7 @@ const About = () => {
       id: 3,
       image: thirdImage,
       text:
-        'Suntem sensibili și atenți la problemele pe care le aveți, vă vom ajuta să vă simțiți în largul vostru, atât în compania medicilor, a terapeuților, cât și în cea a instrumentelor ori a aparatelor medicale.',
+        'Suntem sensibili și atenți la problemele pe care le aveți, vă ajutăm să vă simțiți în largul vostru, atât în compania medicilor și a terapeuților, cât și în cea a instrumentelor ori a aparatelor medicale.',
       color: '#2999bc',
       location: 'left',
     },
@@ -35,7 +35,7 @@ const About = () => {
       id: 4,
       image: fourthImage,
       text:
-        'Vă așteptăm cu servicii personalizate de KINETOTERAPIE în sinergie cu FIZIOTERAPIA și cu alte proceduri medicale sub îndrumarea unui medic specialist de recuperare medicala și/sau dermatologie.',
+        'Vă oferim servicii personalizate de KINETOTERAPIE în sinergie cu FIZIOTERAPIA și cu alte proceduri medicale sub îndrumarea unui medic specialist de recuperare medicală și/sau dermatologie.',
       color: '#fac970',
       location: 'right',
     },

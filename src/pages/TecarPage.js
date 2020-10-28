@@ -16,10 +16,10 @@ const TecarPage = () => {
   const content = {
     title: 'Terapia Tecar',
     titleText:
-      'De ultimă generație, cu emisie de energie adaptată și țintită asupra țesutului afectat unde stimuleaza fluxul sangvin, îmbunătățește nutritia și oxigenarea celulară și accelerează  eliminarea toxinelor.',
+      'De ultimă generație, cu emisie de energie adaptată și țintită asupra țesutului afectat unde stimulează fluxul sangvin, îmbunătățește nutriția și oxigenarea celulară și accelerează  eliminarea toxinelor.',
     titlePhoto: photo1,
     header1: 'Se recomandă pentru:',
-    header2: 'Cum functioneaza?',
+    header2: 'Cum funcționează?',
     text1: [
       'luxații/fracturi',
       'rupturi musculare',
@@ -31,8 +31,8 @@ const TecarPage = () => {
       'prevenția evenimentaelor traumatice – reducerea și prevenirea accidentărilor sportive',
       'eliminarea durerii',
     ],
-    text2: 'Cu ajutorul a doi electrozi si a unei creme conductoare în urmatorul mod:',
-    text2List: ['un electrod de tip placa electrodul negativ va fi așezat pe partea opusă zonei anatomice lucrată, acesta formează legatura cu electrodul mobil', 'un electrod mobil electrodul activ prin care este transmis curentul care va fi plimbat prin mișcări circulare pe zona anatomica de tratat', 'cremă conductoare'],
+    text2: 'Cu ajutorul a doi electrozi și a unei creme conductoare în următorul mod:',
+    text2List: ['un electrod de tip placă electrodul negativ va fi așezat pe partea opusă zonei anatomice lucrată, acesta formează legătura cu electrodul mobil', 'un electrod mobil electrodul activ prin care este transmis curentul care va fi plimbat prin mișcări circulare pe zona anatomică de tratat', 'cremă conductoare'],
     text1Photo: photo2,
     text2Photo: photo3,
     header3: 'Contraindicații:',

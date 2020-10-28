@@ -22,14 +22,14 @@ const KinetoPage = () => {
     header1: 'Se recomandă pentru:',
     header2: 'Indicații:',
     text1: [
-      'deficiențele coloanei vertebrale (cifoza, scolioză, lordoză)',
+      'deficiențele coloanei vertebrale (cifoză, scolioză, lordoză)',
       'deficiențele membrelor',
       'afecţiuni neurologice (lombosciatică, hernia de disc, accident vascular cerebral etc.)',
       'deficienţe nutriţionale',
       'tulburări de dezvoltare',
     ],
-    text2: `Kinetoterapia poate fi utilizată și că metoda de prevenţie și are ca scop menţinerea sau creșterea nivelului funcţional pentru a păstra starea optimă de sănătate prin prevenirea apariţiei unor afecţiuni. Ȋn cadrul ședințelor, kinetoterapeutul concepe un program personalizat de exerciții. Este foarte recomandată persoanelor de vârsta a 3-a; deoarece printr-un antrenament corespunzător,  aceștia pot să-și mărească rezistența la efort, să mențină sau chiar să crească mobilitatea articulară și să se bucure de o “stare generală de bine”.`,
-    text2List: ['încetinește pierderea masei osoase și implicit reduce gradul de osteoporoză', 'corectează poziția corpului', 'îmbunătățire vizibilă a mobilității articulare, mai ales după o convalescență îndelungată sau a unui mod de viață sedentar', 'îmbunătățește metabolismul și fluxul sangvin, dar și frecvența respiratorie'],
+    text2: `Kinetoterapia poate fi utilizată și ca metodă de prevenţie și are ca scop menţinerea sau creșterea nivelului funcţional pentru a păstra starea optimă de sănătate prin prevenirea apariţiei unor afecţiuni. Ȋn cadrul ședințelor, kinetoterapeutul concepe un program personalizat de exerciții. Este foarte recomandată persoanelor de vârsta a treia; deoarece printr-un antrenament corespunzător,  aceștia pot să-și mărească rezistența la efort, să mențină sau chiar să crească mobilitatea articulară și să se bucure de o “stare generală de bine”.`,
+    text2List: ['încetinește pierderea masei osoase și implicit reduce gradul de osteoporoză', 'corectează poziția corpului', 'îmbunătățește vizibil mobilitatea articulară, mai ales după o convalescență îndelungată sau după un mod de viață sedentar', 'îmbunătățește metabolismul și fluxul sangvin, dar și frecvența respiratorie'],
     text1Photo: photo2,
     text2Photo: photo3,
     photos: [galleryPhoto1, galleryPhoto2, galleryPhoto3, galleryPhoto4, galleryPhoto5, galleryPhoto6, galleryPhoto7, galleryPhoto8]

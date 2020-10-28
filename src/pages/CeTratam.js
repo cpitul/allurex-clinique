@@ -19,7 +19,7 @@ const CeTratam = () => {
     },
     {
       header: 'Gonartrozele, coxartrozele',
-      text: 'Durerile de genunchi și de șold sunt tratate în mod natural de scăderea în greutate deoarece reduc presiunea. Noi putem interveni în schimb cu următoarele',
+      text: 'Durerile de genunchi și de șold sunt tratate în mod natural de scăderea în greutate deoarece reduc presiunea. Noi putem interveni în schimb cu următoarele:',
       list: ['Folosirea aparatului de ultimă generație Tecar Fisiowarm 7.0', 'Folosirea terapiei CrioUltraSound II', 'Aplicarea de benzi kinesiologice pentru drenajul limfatic al atriculației dar și pentru creșterea stabilității ei'],
       photo: photoGenunchi
     },

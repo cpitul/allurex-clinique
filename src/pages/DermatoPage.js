@@ -14,7 +14,7 @@ const DermatoPage = () => {
   const content = {
     title: 'Dermato-Estetică',
     titleText:
-      'Nu este o coincidență că terapia cu Tecar s-a dovedit a fi extrem de eficientă în domeniul medicinei cosmetice. Datorită capacității sale de reoxigenare, ajută la repararea pielii, la curățarea cicatricilor post-acneice și la consolidarea pielii feței și a corpului.',
+      'Nu este o coincidență faptul că terapia cu Tecar s-a dovedit a fi extrem de eficientă în domeniul medicinei cosmetice. Datorită capacității sale de reoxigenare, ajută la repararea pielii, la curățarea cicatricilor post-acneice și la consolidarea pielii feței și a corpului.',
     titlePhoto: photo1,
     header1: 'Se recomandă pentru:',
     header2: 'Cum functioneaza?',

@@ -14,18 +14,18 @@ const PhysioGoPage = () => {
   const content = {
     title: 'PhysioGo 500C',
     titleText:
-      `Este un dispozitiv terapeutic activ, non-invaziv, proiectat pentru proceduri de tratament prin`,
-    titleList: ['curenți de joasă frecvență bipolari (bidirecționali) și unipolari (unidirecționali)', 'curenți de frecvență medie modulați prin forme de undă de frecvență joasă(bidirecționali) și unipolari (unidirectionali), câmp magnetic de frecvență joasă', 'radiații laser in game vizibile (lungime de undă 660 nm) și invizibile (lungime de undă 808 nm)'],
+      `Este un dispozitiv terapeutic activ, non-invaziv, proiectat pentru proceduri de tratament prin:`,
+    titleList: ['curenți de joasă frecvență bipolari (bidirecționali) și unipolari (unidirecționali)', 'curenți de frecvență medie modulați prin forme de undă de frecvență joasă (bidirecționali) și unipolari (unidirecționali), câmp magnetic de frecvență joasă', 'radiații laser în game vizibile (lungime de undă 660 nm) și invizibile (lungime de undă 808 nm)'],
     titlePhoto: photo1,
     header1: 'Magnetoterapia',
     header2: 'Tens',
     header3: 'Laserterapia',
     section1Text: 'Reprezintă o metodă alternativă de tratament a unor afecțiuni inflamatorii (dureri articulare, reumatism) și de reducere a durerii asociate, prin acțiunea unui câmp magnetic pulsatil sau static asupra diferitelor părți ale corpului.',
-    section1Text2: 'Testele clinice au demonstrat că terapia cu magneți are efectul de reducere a senzației dureroase. Magneții penetrează adânc țesuturile și creează un câmp magnetic care energizează, alcalinizează și oxigenează îmbunătățind funcția sistemului imunitar și capacitățiile de vindecare ale organismului.',
+    section1Text2: 'Testele clinice au demonstrat faptul că terapia cu magneți are efectul de reducere a senzației dureroase. Magneții penetrează adânc țesuturile și creează un câmp magnetic care energizează, alcalinizează și oxigenează îmbunătățind funcția sistemului imunitar și capacitățile de vindecare ale organismului.',
     section1Text3: 'Procedura de tratament este efectuată local, câmpul magnetic este concentrat doar pe partea corpului supusă terapiei. Energia magnetică are un efect benefic asupra circulației sângelui, a fluxului limfatic, a nervilor, a mușchilor și a producerii de hormoni.',
     text2: `Stresul, oboseala și durerile musculare pot fi tratate eficient. Pulsuri electrice foarte slabe stimulează, revitalizează și regenerează părțile corpului unde sunt plasate pad-urile electrostimulatoarelor.`,
     text2Part2: 'Avantajele terapiei Tens față de analgezicele tradiționale sunt numeroase, printre care reducerea aproape la zero a efectelor secundare, dar și faptul că un asemenea tratament este mai ieftin decât cumpărarea regulată a analgezicelor.',
-    text3: 'Laserterapia este o procedura non-invazivă a fizioterapiei. Spre deosebire de electroterapie, aceasta are la baza efectul benefic al luminii care ajunge în organism.',
+    text3: 'Laserterapia este o procedură non-invazivă a fizioterapiei. Spre deosebire de electroterapie, aceasta are la bază efectul benefic al luminii care ajunge în organism.',
     text3Part2: 'Printre avantajele  utilizării laserterapiei se numără faptul că este non-toxică, nu are efecte adverse și nu interacționează cu alte medicamente.',
     text1Photo: photo2,
     text2Photo: photo3,
@@ -36,10 +36,10 @@ const PhysioGoPage = () => {
     },
     section2Details: {
       indicatii: ['dureri de spate, în special lombare și cervicale', 'dureri articulare', 'nevralgii', 'dureri de cap', 'dureri menstruale', 'dureri care apar în urma afecțiunilor aparatului locomotor (sistemului musculare - scheletal)', 'dureri asociate cu probleme de circulație', 'dureri cronice din diverse cauze'],
-      contraindicatii: ['pacieți cu dispozitive electronice impantate', 'proceduri la nivelul trunchiului si toracelui', 'pacienții cu implanturi (proteze interne, șuruburi osoase)', 'infecții acute și procese inflamatorii', 'tromboflebită', 'riscul unei embolii', 'boli cu posibilitatea hemoragiilor', 'sarcină', 'tulburări senzoriale', 'durere de etiologie necunoscută', 'tumoră activă în zona de tratament', 'tuberculoză activă', 'boli cu pirexic', 'implanturi metalice superficiale - e nefcesară o atenție specială', 'modificări cutanate în locurile de aplicare a electrodului', 'alte cazuri, atunci când pielea nu poate fi umezită']
+      contraindicatii: ['pacieți cu dispozitive electronice implantate', 'proceduri la nivelul trunchiului și toracelui', 'pacienții cu implanturi (proteze interne, șuruburi osoase)', 'infecții acute și procese inflamatorii', 'tromboflebită', 'riscul unei embolii', 'boli cu posibilitatea hemoragiilor', 'sarcină', 'tulburări senzoriale', 'durere de etiologie necunoscută', 'tumoră activă în zona de tratament', 'tuberculoză activă', 'boli cu pirexic', 'implanturi metalice superficiale (se impune o atenție specială)', 'modificări cutanate în locurile de aplicare a electrodului', 'alte cazuri, atunci când pielea nu poate fi umezită']
     },
     section3Details: {
-      indicatii: ['vindecarea dificilă a rănilor și a ulcerațiilor', 'răni post-operatorii, post-amputație', 'necroza pielii, vătămări ale pielii', 'ulcerații ale gambelor, ulcerații trofice', 'arsuri', 'degerături', 'ulcere de decubit', 'cicatrici fără fibroză', 'riduri', 'celulită', 'acnee simplă, herpes simplu', 'afte', 'psoriazis', 'condiții de artrită cronică', 'sindromul umărului dureros', 'sindromul de tunel carpian', 'hemoragii subcutanate (echimoze)', 'leziuni articulare, entorse, luxații', 'terticolis', 'sindromul Sudeck (stadiul I și II)', 'spondilită anchilozantă', 'artrită reumatoidă', 'spondiloartroze, coxartroze, gonartroză', 'sindrom de suprasarcină musculară', 'nevralgii ale nervilor periferici', 'nevralgii dupa herpes zoster', 'neuropatia diabetică'],
+      indicatii: ['vindecarea dificilă a rănilor și a ulcerațiilor', 'răni post-operatorii, post-amputație', 'necroza pielii, vătămări ale pielii', 'ulcerații ale gambelor, ulcerații trofice', 'arsuri', 'degerături', 'ulcere de decubit', 'cicatrici fără fibroză', 'riduri', 'celulită', 'acnee simplă, herpes simplu', 'afte', 'psoriazis', 'condiții de artrită cronică', 'sindromul umărului dureros', 'sindromul de tunel carpian', 'hemoragii subcutanate (echimoze)', 'leziuni articulare, entorse, luxații', 'terticolis', 'sindromul Sudeck (stadiul I și II)', 'spondilită anchilozantă', 'artrită reumatoidă', 'spondiloartroze, coxartroze, gonartroză', 'sindrom de suprasarcină musculară', 'nevralgii ale nervilor periferici', 'nevralgii după herpes zoster', 'neuropatia diabetică'],
       contraindicatii: ['afecțiuni neuroplastice', 'tuberculoză activă', 'predispunere la sângerări', 'condiții de febră', 'sarcină', 'aritmie și insuficiență circulatorie', 'fotofobie', 'diabet necontrolat']
     },
     photos: [photoGallery1, photoGallery2, photoGallery3]

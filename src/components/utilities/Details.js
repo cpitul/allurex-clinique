@@ -13,7 +13,7 @@ const Details = ({indicatii, contraindicatii}) => {
         </div>
       </details>}
       {contraindicatii && <details className='contraindicatii'>
-        <summary>Contraindicatii:</summary>
+        <summary>Contraindicații:</summary>
         <div className="content-details">
           <ul className="contraindicatii-list">
             {contraindicatii.map((item, index) => <li key={index} className="contraindicatii-list-item">{item}</li> )}
